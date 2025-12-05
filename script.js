@@ -6,7 +6,7 @@ const submitBtn = document.getElementById("submit");
 const existingBtn = document.getElementById("existing");
 
 let savedUser = JSON.parse(localStorage.getItem("user"));
-if(savedUser){
+if(savedUser){https://www.svgrepo.com/show/345221/three-dots.svg
 	existingBtn.style.display="block";
 
 	existingBtn.addEventListener("click", () => {
